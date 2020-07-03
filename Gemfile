@@ -6,7 +6,10 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
 gem 'bcrypt', '3.1.13'
+gem 'faker', '2.1.2'
 gem 'bootstrap-sass', '3.4.1'
+gem 'will_paginate', '~>3.1.8'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.4.4'
 # Use Puma as the app server
